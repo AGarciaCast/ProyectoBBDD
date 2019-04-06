@@ -4,7 +4,7 @@ public class ConexionTest {
 
 	public static void main(String[] args) {
 	
-		Conexion.init("localhost", "root", "CRC175psa", "cata_vinos");
+		Conexion.init("localhost", "root", "password", "cata_vinos");
 		//String fila[]=Conexion.insertInstructionFromCSV2("\"0\";\"7\";\"2014-02-18 21:05:38\";\"87.00\";NULL");
 		//System.out.println(fila[4].equals("NULL"));
 		
